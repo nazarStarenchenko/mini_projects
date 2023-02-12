@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+a:hover {
+    background-color: rgba(221, 160, 221, 0.5);
+    background-repeat: no-repeat;
+    font-weight: bold;
+    border-top-color: #DFDFDF;
+    border-right-color: #666;
+    border-bottom-color: #333;
+    border-left-color: #858585;
+    transform: translate(1.5px, 3px);
+    transition-timing-function: ease-out;
+    transition-delay: 0.3s;
+}
+
+ol {
+    background-color:  rgba(221, 160, 221, 0.3);
+    text-align: center;
+    width: 5%;
+    list-style-image: none;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+ol:hover {
+
+    transform: rotate(30deg) scale(1.5);
+}
